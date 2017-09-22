@@ -1,0 +1,11 @@
+[package]
+name = "quadientevents"
+version = "0.1.0"
+authors = ["havlenapetr@gmail.com"]
+include = ["src/**/*", "Cargo.toml"]
+
+[dependencies]
+curl = "0.4.8"
+serde = "1.0.15"
+serde_derive = "1.0.15"
+serde_json = "1.0.3"

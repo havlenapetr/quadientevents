@@ -1,0 +1,19 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "LinuxDebug",
+            "type": "gdb",
+            "request": "launch",
+            "target": "./target/debug/quadientevents",
+            "cwd": "${workspaceRoot}",
+            "gdbpath": "rust-gdb"
+        },
+        {
+            "name": "MacDebug",
+            "type": "lldb",
+            "request": "launch",
+            "program": "./target/debug/quadientevents"
+        }
+    ]
+}
